@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A796D1;
+}
+
+#soundbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 10vh 10vw;
+    max-height: 100px;
+}
+
+.soundbutton {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px dashed black;
+    border-radius: 10px;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #776B96;
+}
+
+.soundbutton p {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    border: none;
+    background-color: #776B96;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#imagediv {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 0 0 0;
+    margin: 0;
+    width: 100vw;
+}
+
+#drumkit{
+    width: 250px;
+}
+
+h1 {
+    width: 80vw;
+    padding: 0 10vw;
+    text-align: center;
+}
+
+@media screen and (min-width: 460px) and (max-width: 758px) {
+    #drumkit {
+        width: 400px;
+    }
+
+    .soundbutton {
+        margin: 20px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .soundbutton p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 759px) and (max-width: 1000px) {
+    #drumkit {
+        width: 450px;
+    }
+
+    .soundbutton {
+        margin: 20px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .soundbutton p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+    #drumkit {
+        width: 650px;
+    }
+
+    .soundbutton {
+        margin: 20px;
+        width: 105px;
+        height: 105px;
+    }
+
+    .soundbutton p {
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #imagediv {
+        padding: 10vh 0 0 0;
+    }
+
+    #soundbar {
+        margin: 0vh 10vw;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #drumkit {
+        width: 650px;
+    }
+
+    .soundbutton {
+        margin: 20px;
+        width: 105px;
+        height: 105px;
+    }
+
+    .soundbutton p {
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #imagediv {
+        padding: 10vh 0 0 0;
+    }
+
+    #soundbar {
+        margin: 0vh 10vw;
+    }
+}
